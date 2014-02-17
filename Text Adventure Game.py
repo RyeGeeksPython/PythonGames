@@ -46,7 +46,7 @@ while True:
         print("You walk to the cave and notice there is an opening.")
         time.sleep(1)
         print("As you aproach the opening you are bitten by a small snake.")
-        time.sleep(2.5)
+        time.sleep(3)
         print("You lose 10 health points.")
         hp -= 10
         print("You now have ", hp, " health points.")
@@ -74,18 +74,20 @@ while True:
             print("a: quickly?")
             print("b: slowly and carefully?")
             haste1 = input("a or b?")
+            haste1 = haste1.lower()
             if haste1 == "a":
                 print("You begin to sprint accross the bridge.")
                 time.sleep(2)
                 print("When you are half way accross you step on a plank and it breaks.")
-                time.sleep(2)
+                time.sleep(3)
                 print("You fall into the fast flowing river and...")
                 time.sleep(3)
                 print("You are soon swept underwater by the strong currents and...")
                 time.sleep(3)
                 print("You lose conciousness...")
                 time.sleep(5)
-                print("When you wake you have lost 30 health points.")
+                print("And 30 health points.")
+                time.sleep(1)
                 hp -= 30
                 print("You now have ", hp, " health points.")
                 time.sleep(2)
@@ -93,12 +95,20 @@ while True:
                     print("You are dead. I will miss you.")
                     print("GAME OVER")
                     break
-                print("You are on some rocks in complete darkness.")
-                time.sleep(3)
-                print("TBC")
+                print("*")
+                print("TBC (this section hasn't been made yet)")
                 break
             if haste1 == "b":
-                print("TBC (this section hasn't been made yet)")
+                print("You cross the bridge slowly and carefully...")
+                time.sleep(2)
+                print("You step on a plank which breaks beneath you...")
+                time.sleep(2)
+                print("Luckily, as you are going slowly, you recover your balance and...")
+                time.sleep(3)
+                print("You make it safely to the other side.")
+                print("TBC")
+                break
+                
     if direction1 == "right":
         print("TBC (this section hasn't been made yet)")
 
