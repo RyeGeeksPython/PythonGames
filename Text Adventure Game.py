@@ -113,6 +113,14 @@ while True:
                         print("You found string!")
                         time.sleep(2)
                         print("You lay down string as you navigate the complex maze")
+                        time.sleep(1)
+                        print("You get lost a few times but successfully use the string to find the way back...")
+                        time.sleep(3)
+                        print("You eventually get out of the maze.")
+                if answer1 == "d":
+                    print("You are so groovy that you win automatically!")
+                    print("Congratulations!")
+                    break
                 print("TBC (this section hasn't been made yet)")
                 break
             if haste1 == "b":
