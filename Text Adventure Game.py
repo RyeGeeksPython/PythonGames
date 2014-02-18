@@ -1,6 +1,6 @@
 #Python Text Adventure Game
-#If you notice this, Lacey, you are awesome! (and observent)
-
+#If you notice this, Shoe Shop, you are awesome! (and observent)
+#But this isn't the only change!
 
 import time
 import random
