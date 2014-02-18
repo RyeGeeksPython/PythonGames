@@ -1,4 +1,6 @@
 #Python Text Adventure Game
+#If you notice this, Lacey, you are awesome! (and observent)
+
 
 import time
 import random
@@ -103,6 +105,7 @@ while True:
                 print("a: Look in your bag for some string to help you navigate the maze?")
                 print("b: Jump down into the maze and head vaguely for the direction of the centre?")
                 print("c: Give up, stay where you are and hope that help comes before you starve?")
+                print("d: Just be groovy like Emily Lacey?")
                 time.sleep(1)
                 answer1 = input("a, b or c?")
                 answer1 = answer1.lower()
@@ -117,6 +120,16 @@ while True:
                         print("You get lost a few times but successfully use the string to find the way back...")
                         time.sleep(3)
                         print("You eventually get out of the maze.")
+                        print("You find yourself just outside the cave system.")
+                        time.sleep(5)
+                        print("You have completed level 1.")
+                        print("Your progress code is 'gods'.")
+                    while luckiness == "3" or "4":
+                        print("You didn't find string.")
+                        time.sleep(2)
+                        print("You did, however, find something else...")
+                        time.sleep(4)
+                        
                 if answer1 == "d":
                     print("You are so groovy that you win automatically!")
                     print("Congratulations!")
