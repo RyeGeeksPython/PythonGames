@@ -4,6 +4,7 @@ import time
 import random
 inventory1 = ["torch", "pencil", "elastic band", "catapult", "rope", "parcel"]
 difficulty = "unknown"
+luck = ["1", "2", "3", "4"]
 
 print("In this game you lose or gain health points depending on the decisons you make.")
 time.sleep(2)
@@ -95,7 +96,23 @@ while True:
                     print("You are dead. I will miss you.")
                     print("GAME OVER")
                     break
-                print("*")
+                print("When you wake you find yourself on a raised plinth in the middle of what looks like a maze.")
+                time.sleep(3)
+                print("Do you:")
+                time.sleep(1)
+                print("a: Look in your bag for some string to help you navigate the maze?")
+                print("b: Jump down into the maze and head vaguely for the direction of the centre?")
+                print("c: Give up, stay where you are and hope that help comes before you starve?")
+                time.sleep(1)
+                answer1 = input("a, b or c?")
+                answer1 = answer1.lower()
+                if answer1 == "a":
+                    print("You look in you bag for some string.")
+                    luckiness = random.choice(luck)
+                    if luckiness == "1" or "2":
+                        print("You found string!")
+                        time.sleep(2)
+                        print("You lay down string as you navigate the complex maze")
                 print("TBC (this section hasn't been made yet)")
                 break
             if haste1 == "b":
@@ -106,10 +123,9 @@ while True:
                 print("Luckily, as you are going slowly, you recover your balance and...")
                 time.sleep(3)
                 print("You make it safely to the other side.")
-                print("TBC")
+                print("TBC (this section hasn't been made yet)")
                 break
                 
     if direction1 == "right":
         print("TBC (this section hasn't been made yet)")
-
 
