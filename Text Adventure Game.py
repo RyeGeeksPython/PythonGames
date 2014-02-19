@@ -1,6 +1,4 @@
 #Python Text Adventure Game
-#If you notice this, Shoe Shop, you are awesome! (and observent)
-#But this isn't the only change!
 
 import time
 import random
