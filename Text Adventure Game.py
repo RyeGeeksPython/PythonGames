@@ -66,11 +66,11 @@ while True:
         time.sleep(3.5)
         if item1 == "torch":
             print("As you have a torch, you decide to investigate the cave systems.")
-            time.sleep(1.5)
+            time.sleep(2.5)
             print("You stumble upon a fast flowing river with a rickety bridge over it.")
-            time.sleep(3)
+            time.sleep(3.5)
             print("You realise that you must cross the bridge to continue.")
-            time.sleep(2)
+            time.sleep(2.5)
             print("Do you cross the bridge:")
             print("a: quickly?")
             print("b: slowly and carefully?")
@@ -80,11 +80,11 @@ while True:
                 print("You begin to sprint accross the bridge.")
                 time.sleep(2)
                 print("When you are half way accross you step on a plank and it breaks.")
-                time.sleep(3)
+                time.sleep(4)
                 print("You fall into the fast flowing river and...")
-                time.sleep(3)
+                time.sleep(4)
                 print("You are soon swept underwater by the strong currents and...")
-                time.sleep(3)
+                time.sleep(4)
                 print("You lose conciousness...")
                 time.sleep(5)
                 print("And 30 health points.")
@@ -103,7 +103,6 @@ while True:
                 print("a: Look in your bag for some string to help you navigate the maze?")
                 print("b: Jump down into the maze and head vaguely for the direction of the centre?")
                 print("c: Give up, stay where you are and hope that help comes before you starve?")
-                print("d: Just be groovy like Emily Lacey?")
                 time.sleep(1)
                 answer1 = input("a, b or c?")
                 answer1 = answer1.lower()
@@ -128,10 +127,7 @@ while True:
                         print("You did, however, find something else...")
                         time.sleep(4)
                         
-                if answer1 == "d":
-                    print("You are so groovy that you win automatically!")
-                    print("Congratulations!")
-                    break
+
                 print("TBC (this section hasn't been made yet)")
                 break
             if haste1 == "b":
@@ -142,6 +138,8 @@ while True:
                 print("Luckily, as you are going slowly, you recover your balance and...")
                 time.sleep(3)
                 print("You make it safely to the other side.")
+                time.sleep(2)
+                print("On the other side of the river there are three huts.")
                 print("TBC (this section hasn't been made yet)")
                 break
                 
