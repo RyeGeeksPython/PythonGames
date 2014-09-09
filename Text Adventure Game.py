@@ -28,7 +28,7 @@ while difficulty != "easy" or "normal" or "hard" or "expert":
 
 #-------------------------
 #I only activate this line for testing hp += 1000
-inventory1 = ["torch", "torch"]
+#inventory1 = ["torch", "torch"]
 #-------------------------
 
 print("You currently have ", hp, " health points.")
